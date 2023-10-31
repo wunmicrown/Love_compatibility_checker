@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator | Love Percentage Meter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./love-bg.jpg">
+  </head>
+  <body>
+    
+    <div class="calculator-section">
+      <h3 class="find-love">Find Love (Percentage)% Between</h3>
+      <div class="calculator-design">
+        <form id="form">
+          <div class="row-calculator">
+            <div class="name">Your Name</div>
+            <div class="user-details">
+              <input
+                type="text"
+                name="user-name"
+                minlength="3"
+                required=""
+                placeholder="Enter Your Name"
+                title="Please enter your name"
+                id="firstInput"
+              />
+              <div class="gender-list">
+                <input type="radio" id="male-f" name="gender-p" value="male" />
+                <label for="male-f">Male</label>
+              </div>
+              <div class="gender-list">
+                <input
+                  type="radio"
+                  id="female-f"
+                  name="gender-p"
+                  checked=""
+                  value="female"
+                />
+                <label for="female-f">Female</label>
+              </div>
+            </div>
+            <div class="name">Partner's Name</div>
+            <div class="user-details">
+              <input
+                type="text"
+                name="partner-name"
+                minlength="3"
+                required=""
+                placeholder="Enter Partner's Name"
+                title="Please enter a valid partner's name"
+                id="secondInput"
+              />
+              <div class="gender-list">
+                <input type="radio" id="male-p" name="gender-p" value="male" />
+                <label for="male-p">Male</label>
+              </div>
+              <div class="gender-list">
+                <input
+                  type="radio"
+                  id="female-p"
+                  name="gender-p"
+                  checked=""
+                  value="female"
+                />
+                <label for="female-p">Female</label>
+              </div>
+            </div>
+          </div>
+          <button mat-button="" type="submit" class="calculate-value">
+            Calculate Love%
+          </button>
+        </form>
+        <div id="disp"></div>
+        <div id="messa"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

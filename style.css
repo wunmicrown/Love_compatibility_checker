@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(love-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .calculator-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .find-love {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .calculator-design form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row-calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .gender-list {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+    
+  }
+  
+  .calculate-value {
+    background-color: #48335C;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #disp {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  #messa {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .percentage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Set your desired height here */
+    width: 150px;
+    background-color: #FF617D;
+    border-radius: 100%;
+    border: 10px solid #FFCAD3;
+    overflow: hidden; /* Ensure the circle shape */
+  }
+  .percentage {
+    text-align: center;
+    font-size: 24px; 
+    color: white; 
+    font-weight: bold; 
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.percentage-body{
+  background-image: url(love99.png.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+    
